@@ -6,71 +6,49 @@ This repository documents my hands-on phishing analysis training completed throu
 
 The lab focused on identifying malicious emails, analyzing phishing indicators, inspecting email headers, and using common OSINT and security analysis tools used by SOC analysts.
 
-## Objectives
+## Tools and Platforms Used
 
-- Understand phishing attack techniques
-- Analyze suspicious emails safely
-- Identify Indicators of Compromise (IOCs)
-- Investigate malicious URLs and domains
-- Learn how SOC analysts triage phishing reports
-
-## Skills Practiced
-
-- Email header analysis
-- URL inspection
-- Attachment investigation
-- IOC identification
-- Threat intelligence research
-- OSINT investigation
-- Phishing detection workflows
-
-## Tools Covered
-
+- PhishTool
+- Mozilla Thunderbird
 - VirusTotal
 - URLScan.io
-- AbuseIPDB
+- Email Header Analyzers
 - WHOIS lookups
-- Email header analyzers
 - Threat intelligence platforms
+- AnyRun
 
-## Key Concepts Learned
+## Practical Activities Completed
 
-- Spoofed sender detection
-- Suspicious domain identification
-- Malicious link analysis
-- Phishing indicators
-- Email authentication basics
-- Safe investigation procedures
+During this lab, I performed phishing investigations using real-world analysis workflows commonly used in SOC environments.
 
-## Example IOC Types
+Activities included:
 
-- Malicious URLs
-- Suspicious domains
-- Sender IP addresses
-- File hashes
-- Email artifacts
+- Investigating phishing emails using Mozilla Thunderbird
+- Analyzing suspicious email headers
+- Identifying spoofed senders and suspicious domains
+- Extracting and reviewing Indicators of Compromise (IOCs)
+- Using PhishTool to inspect phishing email artifacts
+- Investigating malicious URLs and attachments safely
+- Running and analyzing suspicious files in a controlled environment
+- Reviewing indicators associated with malware delivery attempts
+- Performing OSINT-based threat analysis using online intelligence tools
 
-## Investigation Workflow
+## Investigation Techniques Practiced
 
-1. Review sender information
-2. Analyze email headers
-3. Inspect embedded links
-4. Check domains/IPs against threat intelligence sources
-5. Identify suspicious indicators
-6. Document findings
-7. Escalate if malicious
+- Header analysis
+- IOC extraction
+- URL reputation checks
+- Attachment investigation
+- Sender verification
+- Threat intelligence correlation
+- Basic malware analysis workflow
+- Email triage procedures
 
+## Example Workflow
 
-
-> Note: No malicious files or unsafe links are stored in this repository.
-
-## Repository Structure
-
-```text
-phishing-analysis-tools-lab/
-│
-├── README.md
-├── notes/
-├── screenshots/
-├── iocs/
-└── reports/
+1. Open suspicious email in Thunderbird
+2. Review sender information and email headers
+3. Extract URLs, domains, and attachments
+4. Analyze artifacts using PhishTool and VirusTotal
+5. Investigate suspicious infrastructure using AnyRun
+6. Document findings and classify threat level
