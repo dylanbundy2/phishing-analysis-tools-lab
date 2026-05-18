@@ -1,10 +1,6 @@
 # phishing-analysis-tools-lab
-Hands-on phishing analysis and email investigation lab covering phishing detection techniques, URL analysis, header inspection, and OSINT tools used in SOC environments.
+Hands-on phishing analysis and email investigation lab covering phishing detection techniques, URL analysis, header inspection, and OSINT tools used in SOC environments. This repository documents my hands-on phishing analysis training completed through the TryHackMe SOC Level 1 learning path.
 
-
-This repository documents my hands-on phishing analysis training completed through the TryHackMe SOC Level 1 learning path.
-
-The lab focused on identifying malicious emails, analyzing phishing indicators, inspecting email headers, and using common OSINT and security analysis tools used by SOC analysts.
 
 ## Tools and Platforms Used
 
